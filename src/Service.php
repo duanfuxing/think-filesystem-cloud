@@ -1,5 +1,5 @@
 <?php
-namespace jaguarjack\filesystem\cloud;
+namespace duan617\filesystem\cloud;
 
 class Service extends \think\Service
 {

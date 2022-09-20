@@ -6,7 +6,7 @@
    
 ### 使用
 ```php
-composer require jaguarjack/think-filesystem-cloud
+composer require duan617/think-filesystem-cloud
 ```   
 
 ### 配置
@@ -17,11 +17,11 @@ config/filesystem.php
     'oss' => [
         'type'   => 'oss',
         'prefix' => '',
-        'access_key' => '';
-        'secret_key' => '';
-        'end_point'  => ''; // ssl：https://iidestiny.com
-        'bucket'     => '';
-        'is_cname'   => true
+        'access_key' => '',
+        'secret_key' => '',
+        'end_point'  => '', // ssl：https://iidestiny.com
+        'bucket'     => '',
+        'is_cname'   => true,
     ],
     // 七牛配置
     'qiniu' => [
@@ -36,7 +36,7 @@ config/filesystem.php
         'type'        => 'qcloud',
         'region'      => '',
             'credentials' => [
-                'appId'      => , // 域名中数字部分
+                'appId'      => '', // 域名中数字部分
                 'secretId'   => '',
                 'secretKey'  => '',
             ],
